@@ -1,1 +1,25 @@
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <BugID>01</BugID>
+  <Title>Inscription on the &apos;Register&apos; button is aligned incorrectly</Title>
+  <Tester>Stoliarova L.</Tester>
+  <Date>2022-06-15</Date>
+  <Project>fictional</Project>
+  <Component>main</Component>
+  <Version>1.0</Version>
+  <BugDescription>
+    <Summary>&apos;Register&apos; word on the button is right-aligned</Summary>
+    <ExpectedResult>&apos;Register&apos; word on the button is centered</ExpectedResult>
+    <ActualResult>&apos;Register&apos; word on the button is right-aligned</ActualResult>
+    <Steps>1. Open the main page http://***.ru</Steps>
+    <Steps>2. Scroll down to the registration form</Steps>
+    <Attachment>printscreen</Attachment>
+    <Environment>Google Chrome, Windows 10</Environment>
+  </BugDescription>
+  <Administrative>
+    <Severity>Minor</Severity>
+    <Priority>Low</Priority>
+    <AssignedTo>Somebody</AssignedTo>
+    <BugStatus>open</BugStatus>
+  </Administrative>
+</root>
